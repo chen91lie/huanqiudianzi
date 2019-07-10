@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/comm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/eureka2" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/houtai" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loginclient-8087" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/loginclient-8088" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shangjiaruzhu-8090" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shangjiaserver" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/shangjiaserverfeign" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/user-register-8089" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/userserver" charset="UTF-8" />
+  </component>
+</project>

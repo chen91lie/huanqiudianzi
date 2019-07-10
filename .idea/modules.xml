@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/comm/comm.iml" filepath="$PROJECT_DIR$/comm/comm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka/eureka.iml" filepath="$PROJECT_DIR$/eureka/eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/eureka2/eureka2.iml" filepath="$PROJECT_DIR$/eureka2/eureka2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/houtai/houtai.iml" filepath="$PROJECT_DIR$/houtai/houtai.iml" />
+      <module fileurl="file://$PROJECT_DIR$/huanqiu.iml" filepath="$PROJECT_DIR$/huanqiu.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginclient-8087/loginclient8087.iml" filepath="$PROJECT_DIR$/loginclient-8087/loginclient8087.iml" />
+      <module fileurl="file://$PROJECT_DIR$/loginclient-8088/loginclient8088.iml" filepath="$PROJECT_DIR$/loginclient-8088/loginclient8088.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangjiaruzhu-8090/shangjiaruzhu8090.iml" filepath="$PROJECT_DIR$/shangjiaruzhu-8090/shangjiaruzhu8090.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangjiaserver/shangjiaserver.iml" filepath="$PROJECT_DIR$/shangjiaserver/shangjiaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shangjiaserverfeign/shangjiaserverfeign.iml" filepath="$PROJECT_DIR$/shangjiaserverfeign/shangjiaserverfeign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/user-register-8089/userregister8089.iml" filepath="$PROJECT_DIR$/user-register-8089/userregister8089.iml" />
+      <module fileurl="file://$PROJECT_DIR$/userserver/userserver.iml" filepath="$PROJECT_DIR$/userserver/userserver.iml" />
+    </modules>
+  </component>
+</project>

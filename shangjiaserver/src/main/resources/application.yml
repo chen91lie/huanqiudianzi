@@ -1,0 +1,57 @@
+spring:
+  application:
+    name: shangjiaserver
+
+
+  eureka:
+    client: #客户端注册进eureka服务列表内
+      service-url:
+        #default-zone: http://localhost:8761/eureka/
+        #Eureka服务器集群
+        defaultZone: http://eureka8761.com:8761/eureka/,http://eureka8762.com:8762/eureka/
+    instance:
+      instance-id: shangjiaserver8082
+      prefer-ip-address: true     #访问路径可以显示IP地址
+      leaseRenewalIntervalInSeconds: 10   #租期更新时间间隔（默认30秒）
+      leaseExpirationDurationInSeconds: 30 #租期到期时间（默认90秒）
+
+  data:
+    mongodb:   #mongodb设置
+      #uri: mongodb://localhost:27017/test
+      uri: mongodb://testrw:testrw@192.168.112.128:27017/test
+  thymeleaf:
+    cache: false #开发时关闭thymeleaf缓存，项目上线后需要开启
+  redis:
+    database: 0  #指定redis使用第0个数据库
+    host: 192.168.112.128   #指定redis服务器地址
+    port: 6379  #指定redis服务器端口
+    password: 123 #redis密码
+    timeout: 10s
+    jedis:   #配置redis连接池
+      pool:
+        max-active: 10
+        max-idle: 3
+        max-wait: -1
+        min-idle: -1
+  datasource:   #配置mysql
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/home?serverTimezone=UTC
+    username: root
+    password: 123
+  resources: #指定静态文件存放路径
+    static-locations: classpath:/static,classpath:templates
+mybatis:  #mybatis配置
+  mapper-locations: classpath:mapper/*.xml  #指定Mapper文件存放路径
+  type-aliases-package: com.chenlie.shangjiaserver.pojo  #指定实体类路径
+server: #配置上下文路径
+  servlet:
+    context-path: /shangjiaserver
+  port: 8082
+debug: true  #设置日志输出级别为debug
+
+
+#info:
+#  app.name: cssl-microservice
+#  company.name: www.cssl.com
+#  build.artifactId: microservice
+#  build.version: 1.0-SNAPSHOT
